@@ -80,7 +80,7 @@ Run the program:
 
 ### AI Usage
 
-AI tools were used as learning and support tools during the project. They helped explain C programming concepts, pointers, memory allocation, and linked lists; clarify the behavior of Libft functions; review code logic; and assist with preparing test cases.
+AI tools were used to quickly search for information, clarify C programming concepts, and find explanations of Libft functions when needed.
 
 ## License
 
