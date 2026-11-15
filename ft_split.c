@@ -73,7 +73,7 @@ char	**ft_split(char const *s, char c)
 	if (!s)
 		return (NULL);
 	words = ft_word_counter(s, c);
-	res = malloc(sizeof(char *) * (words + 1));
+	res = (char **) malloc(sizeof(char *) * (words + 1));
 	if (!res)
 		return (NULL);
 	return (ft_fill_tab(s, c, res, words));

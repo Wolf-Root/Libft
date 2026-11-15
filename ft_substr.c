@@ -23,7 +23,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 		len = 0;
 	else if (len > ft_strlen(s) - start)
 		len = ft_strlen(s) - start;
-	substring = malloc(sizeof(char) * (len + 1));
+	substring = (char *) malloc(sizeof(char) * (len + 1));
 	if (!substring)
 		return (NULL);
 	i = 0;
